@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: 'drf_app'
+    command: python3 manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/drf_app
+    # ポートが被る場合、手前のポート番号を変更する
+    ports:
+      - "8005:8000"
