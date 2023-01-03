@@ -31,7 +31,7 @@
 
 ### アプリイメージ
 - Frontend
-![Todoアプリ](https://github.com/Tomizawa-Kazu/drf_react/img/Image01.png) 
+![Todoアプリ](/img/Image01.png) 
 
 - Backend
-![Todoアプリ](https://github.com/Tomizawa-Kazu/drf_react/img/Image_drf.png) 
+![Todoアプリ](/img/Image_drf.png) 
