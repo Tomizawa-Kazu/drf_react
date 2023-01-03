@@ -54,21 +54,6 @@ http://localhost:8005
    - クリエイトユーザ
    ``` docker-compose run --rm web python3 manage.py createsuperuser ```
 
-7. pgadminのserver接続情報
-   1. docker起動し、`http://localhost:8005/browser/`にアクセスする
-   2. docker-compose.ymlで指定した、Emailとpasswordでログインする
-   3. Serversに下記の情報を入力する
-   ```
-   Hostname:docker-compose.ymlで指定したサービス名 ex)db
-   Port:5432
-   username:docker-compose.ymlで指定したusername
-   password:docker-compose.ymlで指定したpassword
-   ```
-
-### アプリイメージ
-![カレンダー](/img/) 
-
-
 ### API endpoint 一覧
 - `admin/` → DjangoのAdmin Dash board
 - `auth` → 登録されたUsernameとPasswordをPOSTするとTokenが返ってくる
